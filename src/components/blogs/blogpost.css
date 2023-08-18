@@ -1,0 +1,421 @@
+* {
+  /* font-family: poppins, sans-serif; */
+  box-sizing: border-box;
+  margin: auto;
+}
+
+html {
+  font-size: 12px;
+}
+
+.mt-container {
+  width: 100%;
+  min-height: 356vh;
+  background: url('../images/Premium\ Photo\ _\ Abstract\ connected\ dots\ and\ lines\ on\ blue\ background_.jpg')no-repeat center center/cover;
+}
+
+.mt-hero {
+  width: 100%;
+  height: 50rem;
+  background: url('../images/Screenshot\ 2023-04-15\ 000503.png') no-repeat center center/cover;
+  background-size: cover;
+  background-position: fixed;
+}
+
+.mt-main {
+  width: 100%;
+  max-width: 100rem;
+  background-color: var(--skyblue);
+  margin: -25rem auto;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  border: 2px solid rgb(122, 13, 24);
+  box-shadow: inset 0 0 5rem rgb(121, 63, 63);
+}
+
+.mt-main h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--blue);
+}
+
+
+.mt-main .mt-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px 8px;
+  /* margin-left: 2rem; */
+}
+
+.mt-main .mt-profileimagecontainer {
+  width: 6rem;
+  height: 6rem;
+  /* check here */
+  background: url('../images/wolfdancer.jpg') no-repeat center center/cover;
+  border-radius: 0.5rem;
+
+}
+
+.mt-main .mt-author-date h3{
+  font-weight: 800;
+  text-align: center;
+  font-size: 18px;
+  color: var(--blue);
+}
+
+.mt-main .mt-author-date {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap:1px;
+  /* width:fit-content; */
+  margin-right: 20px;
+  color:var(--blue);
+}
+
+.mt-content blockquote{
+  background-color:grey;
+  color:#fff;
+}
+
+.mt-author-date p{
+  width:150px;
+  font-size: 12px;
+}
+
+.mt-profile .mt-text h3 {
+  text-transform: uppercase;
+  padding-left: 5px;
+}
+
+.mt-profile .mt-text p {
+  text-transform: capitalize;
+  padding-left: 5px;
+}
+
+.btn {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.3rem 1.5rem;
+  background-color: rgb(1, 202, 202);
+  border-radius: 0.2rem;
+}
+
+.mt-main p {
+  color: var(--blue);
+  margin: 1rem 0;
+  font-size: 1.6rem;
+}
+
+.mt-content{
+  margin-top: -50px;
+}
+
+.mt-main .mt-content h4 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: rgb(122, 13, 24);
+  margin: 2rem 0px 0px;
+  text-transform: uppercase;
+}
+
+.mt-main  .mt-img_container  {
+  width: 100%;
+  /*background: url(./images/weird.jpg) no-repeat center center/cover;*/
+}
+
+.mt-main .mt-img_container img{
+  width: 100%;
+  max-height: 350px;
+}
+
+blockquote {
+  font-size: 1.6rem;
+  padding: 1rem 2.8rem;
+  line-height: 1.6rem;
+  color: var(--lightgreen);
+  border-left: 8px solid #791313;
+  background-color: var(--blue);
+  margin: 2rem auto;
+  width: 80%;
+  text-align: center;
+}
+
+.mt-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* margin-bottom: 2rem; */
+}
+
+.mt-tags a {
+  /* display: inline-block; */
+  /* padding: 0.5rem 0.8rem; */
+  margin: 0.3rem;
+  background-color: #7b192c;
+  color: #fff;
+  width: fit-content;
+  padding: 10px 20px 0px;
+  font-size: 1.3rem;
+  align-content: center;
+  border-radius: 10px;
+}
+
+
+
+
+.articles {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25%;
+}
+
+.articles .article-heading {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:40px;
+  /* margin-bottom: 2rem; */
+}
+
+.articles .article-heading h1{
+  font-size: 70px;
+  /* font-family: var(--righteous); */
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin: auto;
+  box-shadow: inset 0.8rem 0 0 rgb(115, 7, 7);
+  background: linear-gradient(to right, var(--iceblue), var(--blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--skyblue);
+  padding:0px 25px;
+}
+
+.articles .article-heading h2{
+  font-size: 50px;
+  font-weight: 800;
+  color: var(--lightgreen);
+  margin-top: 0.5rem;
+  transform: translateY(-50%);
+}
+/* .articles .article-heading h5 {
+  font-size: 10vw;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #5b5093;
+  box-shadow: inset 0.8rem 0 0 rgb(115, 7, 7);
+  background: linear-gradient(to right, white, rgb(183, 230, 202));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 2rem;
+} */
+
+/* .articles .article-heading h6 {
+  font-size: 5vw;
+  font-weight: 500;
+  color: white;
+  margin-top: 0.5rem;
+  transform: translateY(-50%);
+} */
+
+.articles .btn {
+  text-transform: uppercase;
+  background-color: rgb(121, 16, 16);
+  color: #fff;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.mt-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 30px 60px 90px;
+}
+
+.mt-cards .mt-cards-container {
+  width: calc(33.33% - 2rem);
+  padding: 20px;
+  /* margin-bottom: 2rem; */
+  background-color: var(--white);
+  color: var(--blue);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.mt-cards .mt-cards-container .img-holder {
+  width: 100%;
+  height: 20rem;
+  background: url(../images/weird.jpg) no-repeat center center cover;
+  border-radius: 0.5rem;
+}
+
+.mt-cards .mt-cards-container .mt-card-text {
+  font-size:14px;
+  margin-top: 2rem;
+  color: #5b5093;
+}
+
+.mt-cards .mt-cards-container .mt-card-text h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--lightgreen);
+}
+
+.mt-cards .mt-cards-container .mt-card-text p {
+  font-size:16px;
+  color: var(--blue);
+  font-weight: 400;
+  /* font-size: 1.2rem; */
+  /* color: #5b5963; */
+}
+
+.mt-cards .mt-cards-container .img-holder a {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.3rem 1.5rem;
+  display: inline-block;
+  color: #5b5093;
+  font-weight: 400;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  transition: all 0.4s ease;
+}
+
+.mt-cards .mt-cards-container.one .img-holder {
+  background: url('../images/Silver\ Moon\ \(ManxMan\).jpg') no-repeat center center/cover;
+}
+.mt-cards .mt-cards-container.two .img-holder {
+  background: url('../images/Best\ Natural\ Colored\ Contacts.jpg') no-repeat center center/cover;
+}
+
+.mt-cards .mt-cards-container.three .img-holder {
+  /* check here */
+  background: url('../images/Tändelei\ _\ makeup.png') no-repeat center center/cover;
+}
+
+.mt-cards .mt-cards-container:hover {
+  transform: translateY(1rem);
+}
+
+.mt-cards .mt-cards-container:hover a {
+  background-color: rgb(101, 25, 45);
+  color: white;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container .hero {
+    height: 30rem;
+  }
+
+  .main {
+    max-width: 100%;
+    padding: 2rem;
+    margin-top: -15rem;
+  }
+
+  .main h2 {
+    font-size: 1.5rem;
+  }
+
+  .main .profile_container {
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+  }
+
+  .main .profile_container .profile {
+    margin-bottom: 1rem;
+  }
+
+  .main .profile_container .button {
+    margin-top: 1rem;
+  }
+
+  .main .content .img_container {
+    height: 20rem;
+  }
+
+  blockquote {
+    width: 100%;
+  }
+
+  .tags {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .tags a {
+    margin: 0.5rem 0.5rem;
+  }
+
+  .articles .article-heading h5 {
+    font-size: 6rem;
+    padding: 1.5rem;
+  }
+
+  .articles .article-heading h6 {
+    font-size: 3rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .cards .cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .cards .cards-container .img-holder {
+    height: 18rem;
+  }
+
+  .cards .cards-container .card-text {
+    padding: 1.5rem;
+  }
+
+  .articles .btn {
+    padding: 0.3rem 2rem;
+    font-size: 1.2rem;
+  }
+}

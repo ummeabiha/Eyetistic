@@ -1,0 +1,181 @@
+/* Our Offers */
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap:50px;
+    width:100vw;
+    padding:60px 0px 40px;
+    background-color: var(--blue);
+}
+
+#offers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width:100vw;
+    padding:10px 0px;
+    gap:30px;
+}
+
+.offer-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width:15%;
+    height: fit-content;
+    gap:10px;
+    padding: 20px 5px;
+}
+
+.offer-item p{
+    font-size: 17px;
+    color: var(--skyblue);
+}
+
+.offer h1, .stats h1, .developer h1, .clients h1, .exp h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--skyblue);
+    text-shadow: 2px 1px 2px var(--lightblue);
+    letter-spacing: 1px;
+}
+
+.offer-item h3{
+    color: var(--lightgreen);
+    padding-bottom: 10px;
+}
+
+.offer-item:hover{
+    /* border: 1px solid var(--iceblue); */
+    /* box-shadow: 2px 2px 19px 0px #458a9f55; */
+    box-shadow: 0px 0px 4px 4px #458a9f55;
+    cursor: pointer;
+    border-radius: 20px;
+}
+/* Offers End */
+
+/* Stats */
+/* .stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 30px 0px 60px;
+    gap:80px;
+    width:100vw;
+    background-color: var(--blue);
+} */
+
+#stat-content,#exp-content,#client-content{
+    display: flex;
+    flex-direction: column;
+    width:max-content;
+    gap:15px;
+}
+
+#stat-content h1, #exp-content h1{
+    padding-bottom: 15px;
+    border-bottom: 1px dashed var(--lightgreen);
+}
+
+#stat-content p{
+    color: var(--skyblue);
+    width:32vw;
+}
+
+#stats-img{
+    width:400px;
+}
+/* Stats End */
+
+/* Our Experience */
+.exp, .clients, .stats{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color:var(--skyblue);
+    background-color: var(--blue);
+    width:100vw;
+    padding:60px 0px 30px;
+    gap:30px;
+}
+
+.clients, .stats{
+    padding: 30px 0px 60px;
+}
+
+#exp-img img{
+    width:420px;
+}
+
+/* #exp-content{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    width:fit-content;
+} */
+
+#exp-content h1, #client-content h1{
+    width:25vw;
+}
+
+#exp-content p{
+    color: var(--skyblue);
+    width: 37vw;
+}
+/* Our Experience */
+
+
+/* Customer Reviews */
+/* .clients{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--blue);
+    width:100vw;
+    padding: 30px 0px 60px;
+    gap:20px;
+} */
+
+/* #client-content{
+    display: flex;
+    flex-direction: column;
+    width:min-content;
+    gap:15px;
+} */
+
+#client-content button{
+    background-color: var(--iceblue);
+    width:fit-content;
+    padding: 6px 12px;
+}
+
+#client-content button:hover{
+    background-color: var(--lightgreen);
+}
+
+#client-content button a:hover{
+    font-weight: 500;
+    color:var(--blue);
+}
+
+#client-content p{
+    color: var(--skyblue);
+    border-top: 1px dashed var(--lightgreen);
+    padding-top: 15px;
+    width:20vw;
+}
+
+#review img{
+    width:650px;
+}
+/* Customer Reviews End */
+
