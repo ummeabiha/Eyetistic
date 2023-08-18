@@ -1,0 +1,181 @@
+#name{
+    color:var(--lightgreen);
+    font-weight: 500;
+    text-align: center;
+}
+
+#price, #color{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+#color span{
+    border: 1px inset black;
+    padding:6px;
+}
+
+#cart-btn{
+    margin: 4px auto 2px;
+    background: transparent;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 20px;
+    cursor: pointer;
+    border:1px solid var(--lightgreen);
+}
+
+#cart-btn:hover{
+    border: 1px outset var(--lightgreen);
+}
+
+.card-img{
+    width: 230px;
+    height:230px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+    filter: brightness(1);
+    z-index:1;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    padding:10px 20px;
+    gap:10px;
+}
+
+.card-sub-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap:5vw;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    align-items: center;
+    background-color: var(--blue);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.card-sub-body{
+    display: flex;
+    width:180px;
+    align-content: space-between;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card:hover .icon-div{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0px 25px; */
+    width:150px;
+}
+
+/*HOVER ICONS*/
+.icon-div{
+    display: none;
+    position: absolute;
+    z-index:2;
+    /* margin: auto; */
+}
+
+.hover-btns{
+    width:fit-content;
+    background: none;
+}
+
+.hover-btns:hover{
+    background: none;
+}
+
+.hover-btns img{
+    width:30px;
+    height:30px;
+    object-fit: contain;
+    border-radius: 100px;
+    padding:2px;
+    background-color: var(--skyblue);
+}
+
+.hover-btns img:hover{
+    cursor: pointer;
+    border:1px solid var(--lightgreen);
+}
+
+.icon-div button{
+    width:fit-content;
+    background: none;
+    border: none;
+    margin-top: 15px;
+}
+
+.icon-div button:hover{
+    background: none;
+}
+/*HOVER ICONS*/
+
+.category{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue);
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    padding:30px 0px;
+    gap:40px;
+}
+
+.cat-head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+.category h1{
+    border-bottom: 2px solid var(--lightgreen);
+    padding-bottom: 15px;
+}
+
+
+#best-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap:20px;
+    width:100vw;
+    background-color: var(--bluebg);
+    padding:40px 0px;
+}
+
+#best-btns button{
+    font-size: 20px;
+    border-radius: 0;
+    width:fit-content;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#best-btns button:hover{
+    background-color: var(--iceblue);
+    border-radius: 5px;
+}
