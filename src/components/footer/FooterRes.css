@@ -1,0 +1,36 @@
+@media (max-width:950px) {
+    .footer{
+        align-items: center;
+    }
+    .footerbg{
+        background-image: url(../images/footerres950.jpg);
+    }
+
+    .footer-sub{
+        flex-direction: column;
+        gap:6vh;
+    }
+
+    .footer-center,
+    .footer-right, .foot-nav{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width:600px){
+    .footerbg{
+        background-image: url(../images/footerres6002.jpg);
+    }
+
+    .endnote{
+        flex-direction: column;
+        gap:1vh;
+        padding-bottom: 20px;
+    }
+
+    #copyright{
+        text-align: center;
+    }
+
+}

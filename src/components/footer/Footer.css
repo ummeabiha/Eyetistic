@@ -1,0 +1,133 @@
+.footerbg{
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.625);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    width:100vw;
+}
+
+.footer-sub {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 85vw;
+    padding: 20px 20px;
+    border-bottom: 2px solid var(--lightgreen);
+    color: var(--skyblue);
+    flex-wrap: wrap;
+}
+
+#logo img {
+    padding: 0px 8px;
+    width: 90px;
+}
+
+#logo span img{
+    width:150px;
+}
+
+.footer-center,
+.footer-right, .foot-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+}
+
+.footer-right {
+    width: 300px;
+}
+
+.footer-center div p, .footer-right div p{
+    color:var(--skyblue);
+}
+
+.footer h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--lightgreen);
+    text-shadow: 1px 2px var(--blue);
+}
+
+.foot-nav ul{
+    list-style: none;
+    display: flex;
+    gap:5px;
+    flex-direction: column;
+}
+
+.foot-nav ul li a{
+    font-size: 18px;
+    color: var(--skyblue);
+    text-decoration: none;
+}
+
+.icons img,
+.subs img {
+    width: 30px;
+    height: 30px;
+}
+
+.subs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border: 2px solid var(--lightblue);
+    box-shadow: var(--box-shadow);
+    width: fit-content;
+}
+
+.subs input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 3px 6px;
+    width: 180px;
+    font-size: 16px;
+    color:var(--lightgreen);
+}
+
+.endnote{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 0vw 10vw 1vw;
+}
+
+#copyright {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 6px;
+}
+
+#copyright span{
+    color: var(--skyblue);
+}
+
+.foot-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+
+

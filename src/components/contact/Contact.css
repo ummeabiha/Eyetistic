@@ -1,0 +1,248 @@
+.ReachUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    align-content: center;
+    text-align: center;
+    width:100vw;
+    background-color: var(--blue);
+    gap:15px;
+    padding: 60px 0px 40px;
+}
+
+.ReachUs h1, #content h1{
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--lightgreen);
+}
+
+.ReachUs div{
+    color:var(--skyblue);
+}
+
+.ReachUs div p{
+    color:var(--skyblue);
+}
+
+.style-btn{
+    color:var(--skyblue);
+}
+
+#reachdivs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width:20vw;
+    gap:5px;
+    padding: 10px;
+}
+
+.info div{
+    font-size: 16px;
+}
+
+.icons{
+    display: flex;
+    gap:50px;
+    padding: 50px 0px;
+    width:100vw;
+    justify-content: center;
+    color: var(--skyblue);
+    background-color: var(--bluebg);
+}
+
+.contact-head{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    width:100vw;
+    padding: 50px 17vw;
+    background-color: var(--blue);
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:15px;
+}
+
+#content p{
+    color: var(--skyblue);
+    font-weight: 400;
+    width:fit-content;
+}
+
+#content h3{
+    color: var(--lightgreen);
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 16px;
+    width:30vw;
+    padding: 10px 0px;
+    background-color: var(--white);
+    box-shadow:  0px 5px 10px var(--blue);
+}
+
+.contact-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width:80%;
+    padding: 20px 20px;
+    border-radius: 6px;
+}
+
+.contact-fields input{
+    color: var(--blue);
+    outline: none;
+    border:none;
+    border-bottom: 2px solid var(--lightgreen);
+    padding: 5px;
+    width: 100%;
+    height:4vh;
+    font-size: 16px;
+}
+
+.header button{
+    margin-top: 15px;
+    width: fit-content;
+    padding: 5px 10px;
+    background-color:var(--blue);
+    color:var(--white);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.header button:hover{
+    cursor: pointer;
+    background-color:var(--iceblue);
+}
+
+
+.faq{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    padding:40px 0px;
+    width:100vw;
+    background-color: var(--blue);
+}
+
+#FAQS h1{
+    padding-top:3%;
+    width:min-content;
+}
+
+#FAQS h3{
+    font-weight: 500;
+    color:var(--lightgreen);
+}
+
+#faq-ques{
+    color: var(--skyblue);
+    width:500px;
+}
+
+.contact-fields .btn{
+    width:fit-content;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0% 2%; 
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: var(--iceblue);
+}
+
+.contact-fields .btn:hover{
+    background-color: var(--lightgreen);
+    color:var(--blue);
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#faq-ques p{
+    padding-bottom: 8px;
+    font-weight: 500;
+    color: var(--lightgreen);
+}
+
+#faq-ques span{
+    cursor: pointer;
+    padding-left: 6px;
+}
+
+#faq-ques div{
+    color:var(--lightblue);
+}
+
+#faq-ques ul{
+    list-style: none;
+}
+
+#faq-ques ul li{
+    padding: 6px 0px;
+    color: var(--skyblue);
+    /* font-weight: 500; */
+}
+
+#faq-img{
+    background-image: url(../images/map.png);
+    width:70vw;
+    height:30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    border: 1.5px dashed var(--lightgreen);
+    box-shadow: var(--box-shadow);
+}
+
+#img{
+    padding:40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    background-color: var(--bluebg);
+}
+
+
+
+.error {
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+    border-radius: 3px;
+    color: #fff;
+    margin: auto;
+    padding: 1rem;
+    width: 20rem;
+}
+
+#price, #color{
+    color:var(--skyblue);
+}
+

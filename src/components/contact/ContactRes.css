@@ -1,0 +1,180 @@
+/* @media (max-width: 700px) {
+    #content h1{
+        top:0vh;
+        margin-top: -10vh;
+        text-align: center;
+    }
+    
+    #contact-head{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        gap:30px;
+    }
+
+    #content p{
+        display: none;
+    }
+
+    #contact-head{
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .contact{
+        align-content: center;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    .contact-foot{
+        padding: 5% 10%;
+    }
+
+    .contact-foot{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        height:20%;
+        gap:20px;
+        text-align: center;
+    }
+
+    .contact-fields{
+        width:60vw;
+    }
+
+    .contact-fields input{
+        width:80%;
+    }
+
+    .contact-form{
+        margin-bottom: 50px;
+    }
+
+
+} */
+
+@media (max-width:995px) {
+    #header p span{
+        display: none;
+    }
+
+    #header h1 span{
+        display: none;
+    }
+
+    #header{
+        background-image: url(../images/conres.png);
+    }
+
+
+    .contact-head{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        gap:10px;
+    }
+
+    #content h1{
+        padding-top: 10px;
+    }
+
+    #content p{
+        display: none;
+    }
+
+    .contact-fields input{
+        width:50vw;
+    }
+
+    .contact-foot{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 20px;
+        gap:10px;
+        
+    }
+
+    .contact-info div{
+        display: none;
+    }
+
+    .faq{
+        gap:80px;
+    }
+
+    #faq-ques{
+        width:450px;
+        padding-right: 3%;
+    }
+
+    #FAQS{
+        padding-left: 4%;
+    }
+
+}
+
+@media (max-width:765px) {
+    #header{
+        background-image: url(../images/conres765.png);
+    }
+
+    #content h1{
+        font-size: 30px;
+    }
+
+    #faq-ques{
+        width:400px;
+    }
+
+}
+
+@media (max-width:580px) {
+    #header{
+        background-image: var(--gradient);
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    #header h1{
+        font-size: 40px;
+    }
+
+    #content h1{
+        display: none;
+    }
+
+    .contact{
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .contact-foot{
+        display: none;
+    }
+
+    .faq{
+        flex-direction: column;
+        gap:20px;
+        text-align: center;
+    }
+
+    #FAQS{
+        padding: 0%;
+    }
+
+    #faq-ques{
+        width:80vw;
+        padding-right: 0%;
+    }
+
+}
