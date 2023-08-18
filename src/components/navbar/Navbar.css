@@ -1,0 +1,112 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width:100vw;
+    padding: 18px 80px;
+    box-shadow: var(--box-shadow);
+    background-color: var(--blue);
+    position: sticky;
+    box-sizing: border-box;
+}
+
+header .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#nav-responsive li,
+header .navbar ul li {
+    position: relative;
+}
+
+header .navbar ul li a {
+    font-size: 19px;
+    padding: 0px 18px;
+    color: var(--white);
+    display: block;
+    text-decoration: none;
+}
+
+header .navbar ul li a:hover {
+    color: var(--lightgreen);
+    cursor: pointer;
+}
+
+header .navbar ul li ul li:first-child{
+    border-top: 2px solid var(--lightblue);
+}
+
+header .navbar ul li ul li{
+    padding:10px 5px;
+    border: 2px solid var(--lightblue);
+    border-top: none;
+}
+
+header .navbar ul li ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: none;
+    position: absolute;
+    width: max-content;
+    margin-left:15px;
+    background-color: var(--blue);
+    box-shadow: var(--box-shadow);
+}
+
+header .navbar ul li:hover>ul {
+    display: initial;
+}
+
+#menubar {
+    display: none;
+}
+
+header label {
+    cursor: pointer;
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    z-index: 999;
+    width: 61.5vw;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#nav-right {
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+
+#logo img {
+    padding: 0px 8px;
+    width: 75px;
+}
+
+#logo span img{
+    width:140px;
+}
+
+#logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-right button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+

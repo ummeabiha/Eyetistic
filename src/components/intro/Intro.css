@@ -1,0 +1,158 @@
+.intro_container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 500px;
+    height: fit-content;
+    padding: 25px 0px;
+    border: 1px solid var(--lightgreen);
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px var(--iceblue), -3px -3px 8px var(--lightblue);
+    color: var(--white);
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+
+.intro{
+    padding: 60px;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:25px;
+}
+
+.intro_container:hover{
+    background-color: #05173073;
+}
+
+.irow{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width:300px;
+    gap:4px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 10px;
+    text-align: center;
+    color: var(--white);
+}
+
+.fields {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid var(--lightblue);
+    color: var(--white);
+}
+
+.fields::placeholder{
+    color:var(--white);
+}
+
+#Forgot_password {
+    font-size: 18px;
+    text-decoration: none;
+    margin: -5px auto 10px;
+    color: var(--skyblue);
+}
+
+.intro_button {
+    width:fit-content;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--iceblue);
+    cursor: pointer;
+}
+
+.intro_button:hover {
+    background-color:var(--lightblue);
+    color:var(--blue);
+}
+
+.already {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:12px;
+}
+
+.already a {
+    text-decoration: none;
+    color: var(--lightgreen);
+}
+
+.already a:hover,
+#Forgot_password:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.already span{
+    color: var(--white);
+}
+
+#forgot{
+    width:80%;
+}
+
+#forgot_pswd_describe, #forgot_pswd_describe2{
+    font-size:20px;
+    color:var(--skyblue);
+    width:80%;
+    margin:10px auto 0px;
+}
+
+#forgot_code{
+    margin: auto;
+    width:80%;
+}
+
+#forgot_code::placeholder{
+    color:var(--white);
+}
+
+.forgot_form .row i{
+    width:37px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:4px;
+    color:#47325a;
+    position:absolute;
+}
+
+#submit_code{
+    display:block;
+    width:250px;
+    font-size: 20px;
+    text-align: center;
+    margin:auto;
+    margin-top:26px;
+    background-color: rgb(111, 65, 143);
+    border-radius: 13px;
+    padding:8px;
+    color:#e7e7e7;
+}
+
+#myVideo{
+    height:100vh;
+    width:100vw;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}

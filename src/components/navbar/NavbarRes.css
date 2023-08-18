@@ -1,0 +1,75 @@
+@media(max-width:1150px) {
+    header {
+        gap:15vw;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    header label {
+        font-size: 33px;
+        display: initial;
+    }
+
+    header .navbar {
+        background-image: url(../images/navres1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        position: absolute;
+        top: 100%;
+        right: -14vw;
+        box-shadow: var(--box-shadow);
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        display: none;
+        z-index: 1000;  
+    }
+
+    header .navbar ul li {
+        padding: 10px 0px;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        width: 50vw;
+    }
+
+    header .navbar ul {
+        flex-direction: column;
+        text-align: center;
+        width: 50vw;
+    }
+
+    header .navbar ul li ul {
+        position: relative;
+        width: 50vw;
+    }
+
+    header .navbar ul li ul li{
+        padding: 10px 0px;
+        background-image: var(--gradient);
+        right:0;
+        /* background-color: aqua; */
+        width: 50vw;
+    }
+
+    #nav-right{
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px 0px;
+        gap:5vw;
+        width: 50vw;
+    }
+
+    #menubar:checked~.navbar {
+        display: initial;
+    }
+}
+
+@media(max-width:470px) {
+    header .navbar {
+    background-image: var(--gradient);}
+}
+
+@media(max-width:440px) {
+    #logo span img{
+        display: none;
+    }
+}
