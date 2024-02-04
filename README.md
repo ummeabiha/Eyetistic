@@ -1,12 +1,30 @@
-# Eyetistic
-Full-Stack Web Application Developed Using HTML, CSS, JS, React JS, PHP, SQL, PHPMyAdmin.
+# Eyetistic - Full-Stack Web Application
+
+## Project Overview
+Eyetistic provides optic services through its convenient E-commerce store and insightful blogs. The platform allows users to purchase high-quality lenses and spectacles from the comfort of their homes. In addition to the E-commerce store, Eyetistic features informative blogs to educate users about the latest eye diseases and technological advancements in ophthalmology.
+
+## Project Description
+Eyetistic aims to create an interactive web platform for buying reliable optic wear and accessing informative eye blogs. The project involves thorough research on trending technologies, competitive product sourcing, blog content creation, a user-friendly UI, and a reliable delivery system. The scope also includes establishing a robust backend system for the web application, along with continuous maintenance and improvement for maximum user satisfaction.
+
+### Flow of the Project
+1. Evaluate features and identify associated risks.
+2. Prioritize features based on user interest.
+3. Plan and select suitable libraries for development.
+4. Divide the workload and work on respective modules.
+5. Integrate different modules and resolve errors.
+6. Upload on Github for backup.
+
+## Tech Stack
+- HTML, CSS, JS
+- React JS
+- PHP, SQL, PHPMyAdmin
+
+
 
 # Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
@@ -72,3 +90,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+## License
+
+This project is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0). See the [LICENSE](LICENSE) file for details.
