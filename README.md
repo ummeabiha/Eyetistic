@@ -1,12 +1,21 @@
-# Eyetistic - Full-Stack Web Application
+<div align="center">
+<img src="https://github.com/ummeabiha/Eyetistic/blob/main/src/components/images/logowithbg.png" alt= "eyetistic"></img>
+</div>
 
-## Project Overview
+<h1 align="center">Eyetistic ~ Web Application </h1>
+
+
+
+<h3> Project Overview </h3>
+<p align="justify">
 Eyetistic provides optic services through its convenient E-commerce store and insightful blogs. The platform allows users to purchase high-quality lenses and spectacles from the comfort of their homes. In addition to the E-commerce store, Eyetistic features informative blogs to educate users about the latest eye diseases and technological advancements in ophthalmology.
+</p>
 
-## Project Description
-Eyetistic aims to create an interactive web platform for buying reliable optic wear and accessing informative eye blogs. The project involves thorough research on trending technologies, competitive product sourcing, blog content creation, a user-friendly UI, and a reliable delivery system. The scope also includes establishing a robust backend system for the web application, along with continuous maintenance and improvement for maximum user satisfaction.
+<h3>Project Description</h3>
+<p align="justify">
+Eyetistic aims to create an interactive web platform for buying reliable optic wear and accessing informative eye blogs. The project involves thorough research on trending technologies, competitive product sourcing, blog content creation, a user-friendly UI, and a reliable delivery system. The scope also includes establishing a robust backend system for the web application, along with continuous maintenance and improvement for maximum user satisfaction.</p>
 
-### Flow of the Project
+### Flow of the Project 
 1. Evaluate features and identify associated risks.
 2. Prioritize features based on user interest.
 3. Plan and select suitable libraries for development.
@@ -14,7 +23,7 @@ Eyetistic aims to create an interactive web platform for buying reliable optic w
 5. Integrate different modules and resolve errors.
 6. Upload on Github for backup.
 
-## Tech Stack
+### Tech Stack </h3>
 - HTML, CSS, JS
 - React JS
 - PHP, SQL, PHPMyAdmin
